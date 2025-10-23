@@ -1,0 +1,48 @@
+html{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: infoEmpleado formulario;
+    padding: 24px;
+    margin:auto;
+    width: 90%;
+    height: auto;
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.20lXznv749HpYXtJPxiMAwHaE7?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;       
+    background-position: center;
+    border-radius: 6px;
+    
+}
+
+
+
+.infoEmpleado{
+    display: grid;
+    grid-column: 1;
+    gap: 12px;
+    border-color: black;
+    border: 1px solid #e30a0a;
+}
+
+
+
+
+.formulario{
+    display: grid;
+    grid-column: 2;
+    gap: 20px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+
+
